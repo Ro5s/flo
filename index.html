@@ -42,6 +42,10 @@
    transition-duration: 0.6s;
   }
 
+  .img:hover {
+   filter: invert(100%);
+   transition-duration: 0.6s;
+ }
 
 /* MVP.css v1.6.2 - https://github.com/andybrewer/mvp */
 :root {
@@ -479,7 +483,9 @@ padding: 1.5rem 0;
 
 <body>
 <header>
+  <a href="https://flamingodao.xyz/">
   <p class = "lex"> 🦩 FLAMINGO <br> _ERS ONLY</p>
+  </a>
     <button class="button connectButton" data-dh-feature="network" data-dh-property-enable="true">
       CONNECT
     </button>
@@ -510,9 +516,12 @@ padding: 1.5rem 0;
       data-api="1605825558900x857143128586977300"
       src="https://package.dapphero.io/main.js"
     ></script>
-    <p>
-    <img src="https://gateway.pinata.cloud/ipfs/QmYV2wUoVMSHXCjEWNE8TGo2P1zWQ8nULXn5rwCndfEULa" alt="FLO" width="95" height="230">
-      <div
+    <a href = "https://app.rarible.com/collection/0xc7886c91fF20dE17c9161666202b8D8953D03BBD/collectibles">
+    <img class ="img"
+    src="https://gateway.pinata.cloud/ipfs/QmYV2wUoVMSHXCjEWNE8TGo2P1zWQ8nULXn5rwCndfEULa" alt="FLO" width="95" height="230">
+  </a>
+  <p>
+    <div
         data-dh-feature="customContract"
         data-dh-property-method-id="FVC6"
         data-dh-property-auto-invoke="true"
